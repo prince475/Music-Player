@@ -23,5 +23,13 @@ const allSongs = [
     artist: "Quincy Larson",
     duration: "4:15",
     src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3",
+  },
+  {
+    id: 2,
+    title: "Can't Stay Down",
+    artist: "Quincy Larson",
+    duration: "4:15",
+    src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3",
   }
+  
 ]
