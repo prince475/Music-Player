@@ -110,3 +110,7 @@ const songsHTML = array.map((song) => {
 
 playlistSongs.innerHTML  = songsHTML
 };
+
+// calling the render songs function to display the songs in the UI
+
+renderSongs(userData?.songs);
