@@ -119,9 +119,15 @@ renderSongs(userData?.songs);
 
 const sortSongs = (() => {
   userData?.songs.sort((a,b) => {
+    // Sorting if the first title is less than the second title, return first.
     if (a.title < b.title) {
       return -1;
     }
-
+    // Sorting if the first title is greater than the second title, return second.
+     if (a.title > b.title) {
+      return 1;
+    }
+    //Sorting if the first title is equal to the second title, leave them in that order.
+    
   });
 })
