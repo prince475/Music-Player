@@ -127,7 +127,7 @@ const sortSongs = (() => {
      if (a.title > b.title) {
       return 1;
     }
-    //Sorting if the first title is equal to the second title, leave them in that order.
-    
+    // Sorting if the first title is equal to the second title, leave them in that order.
+    return 0;
   });
 })
