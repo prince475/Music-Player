@@ -130,4 +130,5 @@ const sortSongs = (() => {
     // Sorting if the first title is equal to the second title, leave them in that order.
     return 0;
   });
+  return userData?.songs;
 })
