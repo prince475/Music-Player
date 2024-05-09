@@ -90,6 +90,11 @@ let userData = {
   songCurrentTime: 0
 };
 
+// Implementing the functionality for playing the displayed songs.
+const playSong = (id) => {
+
+}
+
 const renderSongs = (array) => {
 
 const songsHTML = array.map((song) => {
