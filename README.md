@@ -6,7 +6,7 @@ we even learn how to dynamically update our user interface based on the current 
 
 ## Languages
 
-`html`, `css`, and `Javascript`
+`html`, `css`, and `JavaScript`
 
 ## License
 This application has been licensed under the MIT license
