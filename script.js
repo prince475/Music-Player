@@ -130,6 +130,10 @@ playlistSongs.innerHTML  = songsHTML
 
 renderSongs(userData?.songs);
 
+playButton.addEventListener("click", () => {
+  
+}
+
 // Sorting songs on the playlist in  aplhabetical order 
 
 const sortSongs = (() => {
