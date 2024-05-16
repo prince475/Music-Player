@@ -130,6 +130,9 @@ playlistSongs.innerHTML  = songsHTML
 
 renderSongs(userData?.songs);
 
+// Adding an eventlistener on the play button
+// To allow for playing of the first song if no queue yet 
+// and current song if there was a song already playing
 playButton.addEventListener("click", () => {
   if (userData?.currentSong === null) {
     playSong(userData?.songs[0].id);
