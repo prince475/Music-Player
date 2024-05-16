@@ -1,6 +1,6 @@
 # Music Player
 Learning string and array methods like find(), forEach(), map(), and join().
-In this project we will code a basic MP3 player using HTML, CSS, and JavaScript. The project covers fundamental concepts 
+In this project we will code a basic MP3 player using Basic HTML, CSS, and JavaScript principles. The project covers fundamental concepts 
 such as handling audio playback, managing a playlist, implementing play, pause, next, previous, and shuffle functionalities. 
 we even learn how to dynamically update our user interface based on the current song.
 
